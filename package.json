@@ -1,0 +1,17 @@
+{
+  "name": "galaxy-project",
+  "version": "1.0.0",
+  "description": "Galaxy visualization project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1",
+    "dev": "npx live-server --port=8080 --no-browser"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["three.js", "galaxy", "visualization"],
+  "author": "",
+  "license": "MIT"
+}
